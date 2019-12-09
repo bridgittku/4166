@@ -1,0 +1,405 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 12, 2019, 11:12:44 PM
+    Author     : bridgittku
+*/
+
+header {
+    background-color: rgb(209,208,206,.25);
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Friends Who Food logo*/
+#logo {
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #3090C7;
+    text-decoration: none;
+    padding: 0;
+}
+/*Sign up, register, start a new connection*/
+#topmenu {
+    display: inline;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    padding-top: 20px;
+}
+
+/*Listed items: sign up, register, start a new connection*/
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    padding-left: 0;
+}
+
+li{
+    display: inline;
+    
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    color: #3BB9FF;
+}
+
+
+li a:hover{
+    color: #FFA500;
+}
+
+
+li a{
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    color: #3BB9FF;
+}
+
+#logout {
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 17px !important;
+    font-family: 'Raleway', sans-serif;
+    color: #3BB9FF;
+}
+
+#logout:hover {
+    color: #FFA500;
+}
+
+#logout input {
+    border-color: white;
+    border-width: 0px;
+}
+
+input [type="submit"]{
+    border-color: white;
+    border-width: 0px;
+}
+
+.logoutButton{
+    margin-top: 25px;
+    margin-left: 250px;
+    background-color: #3BB9FF;
+    border: none;
+    color: white;
+    padding: 15px 32px; 
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+}
+
+
+/*Logo and sign up/register/start a new connection*/
+.topnav {
+    overflow: hidden;
+}
+
+/*Home, about, connections*/
+#generalmenu {
+    display: inline;
+    float: left;
+    text-align: left;
+    padding: 14px 16px;
+    padding-left: 0px;
+}
+
+.introduction p{
+    padding-top: 100px;
+    padding-left: 325px;
+    padding-right: 325px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #696969;
+}
+
+#events {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #696969;
+    padding-top: 100px;
+}
+
+#events a{
+    display: initial;
+    text-align: center;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #696969;
+}
+
+#events a:hover{
+    color: #FFA500;
+}
+
+#greeting {
+    padding-bottom: 0px;
+}
+
+#paragraph {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+#cookingclass{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#cookingclass h2{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #696969;
+    padding-top: 100px;
+}
+
+#cookingclass img{
+    padding-left: 290px;
+}
+
+#cookingclass p{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #696969;
+    padding-top: 5px;
+}
+
+.action {
+    margin-top: 25px;
+    margin-left: 250px;
+    background-color: #3BB9FF;
+    border: none;
+    color: white;
+    padding: 15px 32px; 
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.actionSave {
+    margin-top: 25px;
+    margin-left: 250px;
+    background-color: #3BB9FF;
+    border: none;
+    color: white;
+    padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.action:hover{
+    background-color: #FFA500;
+}
+
+.actionSave:hover{
+    background-color: #FFA500;
+}
+
+#no {
+    margin-left: 265px;
+}
+
+
+#savedEvents h2{
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #696969;
+    padding-top: 100px;
+}
+
+#savedEvents {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #696969;
+}
+
+#tableTitles th{
+    font-weight: bold;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+/*Contact.jsp*/
+.contactInfo p {
+    padding-top: 100px;
+    padding-left: 325px;
+    padding-right: 325px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #696969;
+}
+
+#contactTitle{
+    padding-bottom: 0px;
+}
+
+#contactDetails{
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.about p {
+    padding-top: 100px;
+    padding-left: 325px;
+    padding-right: 325px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #696969;
+}
+
+#aboutParagraph{
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+footer {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+.copyright{
+    position: absolute;
+    width: 100%;
+    line-height: 40px;
+    bottom: 0;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #696969;
+    margin-bottom: 0px;
+}
+
+/*New Connections*/
+.labels{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #696969;
+}
+
+input {
+    margin-bottom: 25px;
+    width: 55%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+.topicChoices {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+
+.topicLabels{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #696969;
+    padding-right: 50px;
+}
+
+.newConnectionForm {
+    padding-left: 75px;
+    padding-top: 25px;
+    margin-top: 25px !important;
+}
+
+#newConnectionTitle {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    color: #696969;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.newLoginForm {
+    padding-left: 75px;
+    margin-top: 25px !important;
+}
+
+#newUserTitle {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    color: #696969;
+    padding-top: 75px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+#newUserSubTitle {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    color: #696969;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+
+
+#submitButton{
+    margin-top: 25px;
+    margin-left: 250px;
+    background-color: #3BB9FF;
+    border: none;
+    color: white;
+    padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 10%;
+}
+
+#errorMessage {
+    color: red; 
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
